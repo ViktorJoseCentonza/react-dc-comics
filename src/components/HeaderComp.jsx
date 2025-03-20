@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header>
-            <section className="d-flex">    {/*d-flex*/}
+            <section className="d-flex">
                 <div className="logo-wrapper">
                     <img src="../public/img/dc-logo.png" alt="dc-logo" />
                 </div>
