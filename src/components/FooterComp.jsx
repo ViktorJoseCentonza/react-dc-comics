@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer>
-            <section> {/*different component? */}
+            <section className="bottom-nav"> {/*different component? */}
                 <div>
                     <div>
                         <img src="../public/img/buy-comics-digital-comics.png" alt="digital-comics-logo" />
@@ -29,7 +29,7 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
-            <section> {/*align left with dflex */}
+            <section className="redirects"> {/*align left with dflex */}
                 <div> {/*column with wrap? */}
                     <h2>DC COMICS</h2>
                     <a href="">Characters</a>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
             </section>
             {/*second component for signup cta? */}
-            <section>
+            <section className="cta-banner">
                 <div>
                     <button>
                         SIGN-UP NOW!

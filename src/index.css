@@ -28,6 +28,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -71,12 +72,39 @@ button:focus-visible {
   }
 }
 
+.d-flex {
+  display: flex;
+}
+
 /* #endregion commonstyles */
 
 /* #region component styling */
 header {
   background-color: white;
-  height: 10vh;
+
+  section {
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+
+    .logo-wrapper {
+      width: 45%;
+
+      img {
+        padding-left: 40%;
+      }
+    }
+
+    .main-nav {
+      width: 55%;
+
+      a {
+        padding: 1rem;
+      }
+    }
+  }
+
+
 }
 
 main {

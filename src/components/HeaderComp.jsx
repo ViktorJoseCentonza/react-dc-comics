@@ -1,11 +1,11 @@
 export default function Header() {
     return (
         <header>
-            <section>    {/*d-flex*/}
-                <div>
+            <section className="d-flex">    {/*d-flex*/}
+                <div className="logo-wrapper">
                     <img src="../public/img/dc-logo.png" alt="dc-logo" />
                 </div>
-                <div>
+                <div className="main-nav">
                     <a href="">CHARACTERS</a>
                     <a href="">COMICS</a>
                     <a href="">MOVIES</a>
