@@ -5,7 +5,6 @@ import Main from './components/MainComp.jsx'
 import Footer from './components/FooterComp.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
