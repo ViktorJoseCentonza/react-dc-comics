@@ -137,6 +137,8 @@ button:focus-visible {
 
 header {
   background-color: white;
+  padding: 2rem 0;
+
 
   section {
     justify-content: center;
@@ -160,7 +162,7 @@ header {
 
       a:hover {
         color: var(--secondary-color);
-        padding-bottom: 2.55rem;
+        padding-bottom: 4.55rem;
         border-bottom: 4px solid var(--secondary-color);
       }
 
