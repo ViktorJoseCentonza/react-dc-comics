@@ -1,34 +1,9 @@
+import CtaBanner from "./CtaBanner";
+
 export default function Footer() {
     return (
         <footer>
-            <section className="bottom-nav"> {/*different component? */}
-                <div>
-                    <div>
-                        <img src="../public/img/buy-comics-digital-comics.png" alt="digital-comics-logo" />
-                        <h4>DIGITAL COMICS</h4>
-                    </div>
 
-                    <div>
-                        <img src="../public/img/buy-comics-merchandise.png" alt="dc-merchandise-logo" />
-                        <h4>DC MERCHANDISE</h4>
-                    </div>
-
-                    <div>
-                        <img src="../public/img/buy-comics-subscriptions.png" alt="subscriptions-logo" />
-                        <h4>SUBSCRIPTION</h4>
-                    </div>
-
-                    <div>
-                        <img src="../public/img/buy-comics-shop-locator.png" alt="shop-locator-logo" />
-                        <h4>COMIC SHOP LOCATOR</h4>
-                    </div>
-
-                    <div>
-                        <img src="../public/img/buy-dc-power-visa.svg" alt="dc-power-visa-logo" />
-                        <h4>DC POWER VISA</h4>
-                    </div>
-                </div>
-            </section>
             <section className="redirects"> {/*align left with dflex */}
                 <div> {/*column with wrap? */}
                     <h2>DC COMICS</h2>
@@ -68,22 +43,9 @@ export default function Footer() {
                     <a href="">DC Power Visa</a>
                 </div>
             </section>
-            {/*second component for signup cta? */}
-            <section className="cta-banner">
-                <div>
-                    <button>
-                        SIGN-UP NOW!
-                    </button>
-                </div>
-                <div>
-                    <h2>FOLLOW US</h2>
-                    <a href=""><img src="../public/img/footer-facebook.png" alt="" /></a>
-                    <a href=""><img src="../public/img/footer-twitter.png" alt="" /></a>
-                    <a href=""><img src="../public/img/footer-youtube.png" alt="" /></a>
-                    <a href=""><img src="../public/img/footer-pinterest.png" alt="" /></a>
-                    <a href=""><img src="../public/img/footer-periscope.png" alt="" /></a>
-                </div>
-            </section>
+
+            <CtaBanner />
+
         </footer>
     );
 }
