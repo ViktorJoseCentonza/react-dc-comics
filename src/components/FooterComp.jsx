@@ -3,9 +3,9 @@ import CtaBanner from "./CtaBanner";
 export default function Footer() {
     return (
         <footer>
-            <section className="redirects d-flex"> {/*align left with dflex */}
+            <section className="redirects d-flex">
                 <div>
-                    <div className="d-flex"> {/*column with wrap? */}
+                    <div className="d-flex">
                         <h2>DC COMICS</h2>
                         <a href="">Characters</a>
                         <a href="">Comics</a>
@@ -45,6 +45,13 @@ export default function Footer() {
                     <a href="">DC Universe</a>
                     <a href="">DC Power Visa</a>
                 </div>
+
+                <div className="logo-cropper">
+                    <img src="/public/img/dc-logo-bg.png" alt="" />
+                </div>
+
+
+
             </section>
 
             <CtaBanner />
