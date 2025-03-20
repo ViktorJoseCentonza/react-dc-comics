@@ -3,24 +3,26 @@ import CtaBanner from "./CtaBanner";
 export default function Footer() {
     return (
         <footer>
+            <section className="redirects d-flex"> {/*align left with dflex */}
+                <div>
+                    <div className="d-flex"> {/*column with wrap? */}
+                        <h2>DC COMICS</h2>
+                        <a href="">Characters</a>
+                        <a href="">Comics</a>
+                        <a href="">Movies</a>
+                        <a href="">TV</a>
+                        <a href="">Games</a>
+                        <a href="">Videos</a>
+                        <a href="">News</a>
+                    </div>
+                    <div className="d-flex">
+                        <h2>SHOP</h2>
+                        <a href="">Shop DC</a>
+                        <a href="">Shop DC Collectibles</a>
+                    </div>
+                </div>
 
-            <section className="redirects"> {/*align left with dflex */}
-                <div> {/*column with wrap? */}
-                    <h2>DC COMICS</h2>
-                    <a href="">Characters</a>
-                    <a href="">Comics</a>
-                    <a href="">Movies</a>
-                    <a href="">TV</a>
-                    <a href="">Games</a>
-                    <a href="">Videos</a>
-                    <a href="">News</a>
-                </div>
-                <div>
-                    <h2>SHOP</h2>
-                    <a href="">Shop DC</a>
-                    <a href="">Shop DC Collectibles</a>
-                </div>
-                <div>
+                <div className="d-flex">
                     <h2>DC</h2>
                     <a href="">Terms Of Use</a>
                     <a href="">Privacy policy (New)</a>
@@ -34,7 +36,8 @@ export default function Footer() {
                     <a href="">Shop Help</a>
                     <a href="">Contact Us</a>
                 </div>
-                <div>
+
+                <div className="d-flex">
                     <h2>SITES</h2>
                     <a href="">DC</a>
                     <a href="">MAD Magazine</a>
