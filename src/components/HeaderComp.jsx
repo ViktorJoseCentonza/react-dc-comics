@@ -3,7 +3,7 @@ export default function Header() {
         <header>
             <section className="d-flex">
                 <div className="logo-wrapper">
-                    <img src="../public/img/dc-logo.png" alt="dc-logo" />
+                    <img src="/img/dc-logo.png" alt="dc-logo" />
                 </div>
                 <div className="main-nav">
                     <a href="">CHARACTERS</a>

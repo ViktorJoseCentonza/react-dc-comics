@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
 
                 <div className="logo-cropper">
-                    <img src="/public/img/dc-logo-bg.png" alt="" />
+                    <img src="/img/dc-logo-bg.png" alt="" />
                 </div>
 
 
