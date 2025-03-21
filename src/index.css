@@ -38,6 +38,11 @@ body {
   box-sizing: border-box;
 }
 
+section {
+  width: 65%;
+  margin: auto;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -120,16 +125,14 @@ button:focus-visible {
 .cta-banner {
   background-color: var(--footer-color);
   height: 150px;
-  align-items: center;
-  justify-content: space-between;
 
-  div:first-child {
-    margin-left: 18%;
+  section {
+    align-items: center;
+    justify-content: space-between;
   }
 
   div {
     gap: 1rem;
-    padding-right: 500px;
     align-items: center;
 
   }
@@ -143,7 +146,7 @@ button:focus-visible {
 .card-shelf {
   justify-content: center;
   position: relative;
-  padding: 4rem;
+  padding: 2rem;
   padding-bottom: 0;
   flex-wrap: wrap;
   width: 70%;
@@ -153,9 +156,13 @@ button:focus-visible {
   .series-header {
     background-color: var(--secondary-color);
     position: absolute;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     top: -40px;
-    left: 9%;
+    left: 50px;
+
+    h2 {
+      margin: 0;
+    }
   }
 
   .card {
@@ -186,7 +193,7 @@ button:focus-visible {
 
 header {
   background-color: white;
-  padding: 2rem 0;
+  padding: 1rem 0;
 
 
   section {
@@ -196,9 +203,6 @@ header {
     .logo-wrapper {
       width: 45%;
 
-      img {
-        padding-left: 40%;
-      }
     }
 
     .main-nav {
@@ -211,7 +215,7 @@ header {
 
       a:hover {
         color: var(--secondary-color);
-        padding-bottom: 4.55rem;
+        padding-bottom: 3.55rem;
         border-bottom: 4px solid var(--secondary-color);
       }
 
@@ -232,8 +236,6 @@ footer {
 
   .redirects {
     gap: 3rem;
-    padding-left: 18%;
-    align-items: center;
 
 
     .logo-cropper {

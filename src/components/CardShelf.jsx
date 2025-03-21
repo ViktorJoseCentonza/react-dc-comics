@@ -2,7 +2,7 @@ import Card from "./CardComp.jsx"
 import ComicsData from "../assets/comics_data/comics.js"
 export default function cardShelf() {
     return (
-        <div className="card-shelf d-flex">
+        <section className="card-shelf d-flex">
             <div className="series-header">
                 <h2>CURRENT SERIES</h2>
             </div>
@@ -20,6 +20,6 @@ export default function cardShelf() {
             <Card img={ComicsData[11].thumb} title={ComicsData[11].title} />
 
             <button>Load More</button>
-        </div>
+        </section>
     );
 }
