@@ -252,6 +252,11 @@ footer {
 
     div {
       flex-direction: column;
+
+      a {
+        font-weight: 400;
+        color: grey;
+      }
     }
   }
 }

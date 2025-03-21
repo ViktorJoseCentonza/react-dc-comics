@@ -8,7 +8,7 @@ export default function ctaBanner() {
                     </button>
                 </div>
                 <div className="d-flex">
-                    <h2>FOLLOW US</h2>
+                    <h2><a href="">FOLLOW US</a></h2>
                     <a href=""><img src="/img/footer-facebook.png" alt="" /></a>
                     <a href=""><img src="/img/footer-twitter.png" alt="" /></a>
                     <a href=""><img src="/img/footer-youtube.png" alt="" /></a>
