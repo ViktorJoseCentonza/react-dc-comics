@@ -141,6 +141,7 @@ button:focus-visible {
 }
 
 .card-shelf {
+  padding: 4rem;
   flex-wrap: wrap;
   width: 70%;
   margin: auto;
@@ -150,8 +151,8 @@ button:focus-visible {
     width: 185px;
     overflow: hidden;
 
-    card-img {
-      height: 100%;
+    img {
+      width: 185px;
     }
   }
 }
@@ -195,7 +196,6 @@ header {
 
 main {
   background-color: rgb(34, 31, 31);
-  padding-top: 5rem;
 }
 
 footer {

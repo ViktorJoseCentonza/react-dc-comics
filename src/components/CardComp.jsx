@@ -1,8 +1,11 @@
 export default function Card(props) {
     return (
-        <div style={{ backgroundImage: "url(" + props.bg + ")" }} className="card-img">
-
-            <h3>{props.title}</h3>
-        </div>
+        <>
+            <div className="card">
+                {/* <div style={{ backgroundImage: "url(" + props.bg + ")" }} className="card-bg"></div> cannot style background properly */}
+                <img src={props.img} alt="comics-book" />
+                <span>{props.title}</span>
+            </div>
+        </>
     );
 }

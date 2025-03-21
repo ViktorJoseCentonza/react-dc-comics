@@ -1,9 +1,9 @@
 import NavBanner from './NavBanner.jsx'
-
+import CardShelf from './CardShelf.jsx';
 export default function Main() {
     return (
         <main>
-            <span>{"--> Content here<--"}</span>
+            <CardShelf />
             <NavBanner />
         </main>
     );
