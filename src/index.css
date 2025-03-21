@@ -136,8 +136,24 @@ button:focus-visible {
 }
 
 .jumbotron {
-  height: 450px;
-  background-image: url("/public/img/jumbotron.jpg");
+  height: 375px;
+  background-image: url("img/jumbotron.jpg");
+}
+
+.card-shelf {
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+
+  .card {
+    height: 185px;
+    width: 185px;
+    overflow: hidden;
+
+    card-img {
+      height: 100%;
+    }
+  }
 }
 
 header {
