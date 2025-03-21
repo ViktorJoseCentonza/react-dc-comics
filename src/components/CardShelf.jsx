@@ -3,6 +3,9 @@ import ComicsData from "../assets/comics_data/comics.js"
 export default function cardShelf() {
     return (
         <div className="card-shelf d-flex">
+            <div className="series-header">
+                <h2>CURRENT SERIES</h2>
+            </div>
             <Card img={ComicsData[0].thumb} title={ComicsData[0].title} />
             <Card img={ComicsData[1].thumb} title={ComicsData[1].title} />
             <Card img={ComicsData[2].thumb} title={ComicsData[2].title} />
@@ -16,6 +19,7 @@ export default function cardShelf() {
             <Card img={ComicsData[10].thumb} title={ComicsData[10].title} />
             <Card img={ComicsData[11].thumb} title={ComicsData[11].title} />
 
+            <button>Load More</button>
         </div>
     );
 }
