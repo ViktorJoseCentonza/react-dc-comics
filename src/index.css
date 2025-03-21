@@ -135,6 +135,11 @@ button:focus-visible {
   }
 }
 
+.jumbotron {
+  height: 450px;
+  background-image: url("/public/img/jumbotron.jpg");
+}
+
 header {
   background-color: white;
   padding: 2rem 0;
