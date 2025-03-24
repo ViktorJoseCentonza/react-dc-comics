@@ -7,7 +7,7 @@ export default function Main(props) {
         <main>
             <Jumbotron />
             <CardShelf ComicsData={props.ComicsData} />
-            <NavBanner />
+            <NavBanner SubNavData={props.SubNavData} />
         </main>
     );
 }
