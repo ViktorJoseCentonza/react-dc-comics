@@ -1,51 +1,15 @@
 import CtaBanner from "./CtaBanner";
-
-export default function Footer() {
+import FooterNavSection from './FooterNavSection'
+export default function Footer(props) {
     return (
         <footer>
 
             <section className="redirects d-flex">
                 <div>
-                    <div className="d-flex">
-                        <h2>DC COMICS</h2>
-                        <a href="">Characters</a>
-                        <a href="">Comics</a>
-                        <a href="">Movies</a>
-                        <a href="">TV</a>
-                        <a href="">Games</a>
-                        <a href="">Videos</a>
-                        <a href="">News</a>
-                    </div>
-                    <div className="d-flex">
-                        <h2>SHOP</h2>
-                        <a href="">Shop DC</a>
-                        <a href="">Shop DC Collectibles</a>
-                    </div>
+                    {props.FooterNavData.slice(0, 2).map((object, index) => (<FooterNavSection key={index} FooterNavData={object} />))}
                 </div>
 
-                <div className="d-flex">
-                    <h2>DC</h2>
-                    <a href="">Terms Of Use</a>
-                    <a href="">Privacy policy (New)</a>
-                    <a href="">Ad Choices</a>
-                    <a href="">Advertising</a>
-                    <a href="">Jobs</a>
-                    <a href="">Subscriptions</a>
-                    <a href="">Talent Workshops</a>
-                    <a href="">CPSC Certificates</a>
-                    <a href="">Ratings</a>
-                    <a href="">Shop Help</a>
-                    <a href="">Contact Us</a>
-                </div>
-
-                <div className="d-flex">
-                    <h2>SITES</h2>
-                    <a href="">DC</a>
-                    <a href="">MAD Magazine</a>
-                    <a href="">DC Kids</a>
-                    <a href="">DC Universe</a>
-                    <a href="">DC Power Visa</a>
-                </div>
+                {props.FooterNavData.slice(2, 4).map((object, index) => (<FooterNavSection key={index} FooterNavData={object} />))}
 
                 <div className="logo-cropper">
                     <img src="/img/dc-logo-bg.png" alt="" />

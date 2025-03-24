@@ -1,5 +1,4 @@
 export default function (props) {
-    { console.log(props) }
     return (
 
         <a className="d-flex" href={props.SubNavData.url}>

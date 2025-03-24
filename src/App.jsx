@@ -4,13 +4,14 @@ import Footer from './components/FooterComp.jsx'
 import ComicsData from './assets/data/comics_data.js'
 import MainNavData from './assets/data/mainnav_data.js'
 import SubNavData from './assets/data/subnav_data.js'
+import FooterNavData from './assets/data/footernav_data.js'
 function App() {
 
   return (
     <>
       <Header MainNavData={MainNavData} />
       <Main ComicsData={ComicsData} SubNavData={SubNavData} />
-      <Footer />
+      <Footer FooterNavData={FooterNavData} />
     </>
   )
 }
