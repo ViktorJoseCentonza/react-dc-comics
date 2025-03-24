@@ -3,6 +3,7 @@ import CtaBanner from "./CtaBanner";
 export default function Footer() {
     return (
         <footer>
+
             <section className="redirects d-flex">
                 <div>
                     <div className="d-flex">
@@ -54,8 +55,8 @@ export default function Footer() {
 
             </section>
 
-            <CtaBanner />
 
+            <CtaBanner />
         </footer>
     );
 }
